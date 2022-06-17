@@ -1,0 +1,33 @@
+.hero {
+   background: url("../../img/bg-picture.png") fixed center no-repeat; // Нет понимания, почему не подхватает BG
+   background-color: $blue;
+   height: 100vh;
+   min-width: 650px;
+   color: #fff;
+}
+
+.hero__main-title {
+   font-size: 48px;
+   line-height: 1.1;
+   font-weight: bold;
+   margin-bottom: 15px;
+   text-transform: uppercase;
+}
+
+.hero__tittle-desc {
+   font-size: 21px;
+   margin-bottom: 28px;
+   padding-right: 0; 
+}
+
+.hero__container {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   height: 100%;
+   padding: 24px 0 45px;
+}
+
+.hero__title-section {
+   width: 65%;
+}
